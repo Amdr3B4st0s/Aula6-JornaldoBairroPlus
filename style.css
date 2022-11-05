@@ -1,0 +1,106 @@
+body{
+    font-family: Arial, Helvetica, sans-serif, Courier, monospace, Geneva, Tahoma, sans-serif;
+    background-image: url(https://www.patternpictures.com/wp-content/uploads/Kristal-subtle-glass-white-background-pattern-patternpictures-0220.png);
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo:hover{
+    transition: 600ms;
+    cursor: context-menu;
+    text-decoration: double;
+    color: rgb(0, 255, 234);
+    font-size: 30px;
+}
+header{
+    background-color: rgb(58, 116, 126);
+    color: white;
+}
+#nome{
+    font-size: 50px;
+}
+#nome:hover{
+    font-size: 80px;
+    transition: 600ms;
+}
+.titulo{
+    color: rgb(58, 116, 126);
+    transition: 600ms;
+}
+
+nav ul{
+    box-sizing: border-box;
+    padding: 2%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    cursor: pointer;
+    color: aquamarine;
+    text-decoration: double;
+}
+
+article{
+    background-color: rgb(58, 116, 126);
+    color: white;
+    padding: 1%;
+    width: 620px;
+    height: 620px;
+    font-family: 'Times New Roman', Times, serif;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+footer{
+    background-color: rgb(58, 116, 126);
+    color: white;
+}
+
+footer ul{
+    box-sizing: border-box;
+    padding: 2%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+span{
+    font-size: 20px;
+    text-align: center;
+}
+
+section{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: rgba(127, 255, 244, 0.534);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+h4{
+    color: transparent;
+}
+input{
+    border-style: ridge dashed;
+    width: 30%;
+}
+#secao{
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+.ar:link{
+    color: rgb(0, 217, 255);
+    text-decoration: underline;
+}
+.ar:visited{
+    color: antiquewhite;
+    text-decoration: underline;
+}
